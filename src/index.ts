@@ -26,8 +26,8 @@ app.get("/:id", async (req, res) => {
 });
 
 app.post("/", async (req, res) => {
-  const { status, title } = req.body;
-  const data = await db.insert(todos).values({ status, title }).returning();
+  const { status, title, description, isHidden } = req.body;
+  const data = await db.insert(todos).values({ status, title, description, isHidden }).returning();
   console.log(data);
 
   if (!data) {

@@ -1,11 +1,11 @@
 {
   "version": "5",
   "dialect": "pg",
-  "id": "1a684c43-8e8f-4a90-ac95-5e1f6bb85635",
+  "id": "11da0b11-55bb-4281-94aa-15a8e704fcde",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "tables": {
-    "cities": {
-      "name": "cities",
+    "todo": {
+      "name": "todo",
       "schema": "",
       "columns": {
         "id": {
@@ -20,26 +20,25 @@
           "primaryKey": false,
           "notNull": false
         },
-        "popularity": {
-          "name": "popularity",
-          "type": "popularity",
+        "status": {
+          "name": "status",
+          "type": "status",
           "primaryKey": false,
           "notNull": false
         }
       },
       "indexes": {},
       "foreignKeys": {},
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
+      "compositePrimaryKeys": {}
     }
   },
   "enums": {
-    "popularity": {
-      "name": "popularity",
+    "status": {
+      "name": "status",
       "values": {
-        "unknown": "unknown",
-        "known": "known",
-        "popular": "popular"
+        "complete": "complete",
+        "incomplete": "incomplete",
+        "pending": "pending"
       }
     }
   },
