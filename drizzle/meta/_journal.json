@@ -5,29 +5,15 @@
     {
       "idx": 0,
       "version": "5",
-      "when": 1689155076340,
-      "tag": "0000_naive_jazinda",
+      "when": 1689180491156,
+      "tag": "0000_amused_leech",
       "breakpoints": true
     },
     {
       "idx": 1,
       "version": "5",
-      "when": 1689158966401,
-      "tag": "0001_awesome_puppet_master",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "5",
-      "when": 1689159003473,
-      "tag": "0002_rainy_black_widow",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "5",
-      "when": 1689159533710,
-      "tag": "0003_rare_rumiko_fujikawa",
+      "when": 1689180936079,
+      "tag": "0001_numerous_mantis",
       "breakpoints": true
     }
   ]
