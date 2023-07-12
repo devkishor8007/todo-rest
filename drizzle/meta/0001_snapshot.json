@@ -1,68 +1,10 @@
 {
   "version": "5",
   "dialect": "pg",
-  "id": "46743213-e458-4515-bcb3-be9dd14fda42",
-  "prevId": "11da0b11-55bb-4281-94aa-15a8e704fcde",
-  "tables": {
-    "todo": {
-      "name": "todo",
-      "schema": "",
-      "columns": {
-        "id": {
-          "name": "id",
-          "type": "serial",
-          "primaryKey": true,
-          "notNull": true
-        },
-        "name": {
-          "name": "name",
-          "type": "varchar(256)",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "status": {
-          "name": "status",
-          "type": "status",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "description": {
-          "name": "description",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "isHidden": {
-          "name": "isHidden",
-          "type": "boolean",
-          "primaryKey": false,
-          "notNull": false,
-          "default": false
-        },
-        "created_at": {
-          "name": "created_at",
-          "type": "timestamp",
-          "primaryKey": false,
-          "notNull": false,
-          "default": "now()"
-        }
-      },
-      "indexes": {},
-      "foreignKeys": {},
-      "compositePrimaryKeys": {},
-      "uniqueConstraints": {}
-    }
-  },
-  "enums": {
-    "status": {
-      "name": "status",
-      "values": {
-        "complete": "complete",
-        "incomplete": "incomplete",
-        "pending": "pending"
-      }
-    }
-  },
+  "id": "90de2ca4-0cdd-44a7-b8c5-94a567cdbffa",
+  "prevId": "1a684c43-8e8f-4a90-ac95-5e1f6bb85635",
+  "tables": {},
+  "enums": {},
   "schemas": {},
   "_meta": {
     "schemas": {},

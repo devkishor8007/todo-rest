@@ -1,11 +1,11 @@
 {
   "version": "5",
   "dialect": "pg",
-  "id": "1a684c43-8e8f-4a90-ac95-5e1f6bb85635",
-  "prevId": "00000000-0000-0000-0000-000000000000",
+  "id": "f75dd9ec-0f32-43c4-86c4-76339d23348e",
+  "prevId": "709d9959-e38e-4ad1-928e-ab86af60fd6b",
   "tables": {
-    "cities": {
-      "name": "cities",
+    "todo": {
+      "name": "todo",
       "schema": "",
       "columns": {
         "id": {
@@ -20,9 +20,9 @@
           "primaryKey": false,
           "notNull": false
         },
-        "popularity": {
-          "name": "popularity",
-          "type": "popularity",
+        "status": {
+          "name": "status",
+          "type": "status",
           "primaryKey": false,
           "notNull": false
         }
@@ -34,12 +34,12 @@
     }
   },
   "enums": {
-    "popularity": {
-      "name": "popularity",
+    "status": {
+      "name": "status",
       "values": {
-        "unknown": "unknown",
-        "known": "known",
-        "popular": "popular"
+        "complete": "complete",
+        "incomplete": "incomplete",
+        "pending": "pending"
       }
     }
   },
